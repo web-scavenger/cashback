@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
+
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    padding: 15px 0px;
+    /* overflow: hidden; */
+    /* clear: both; */
+    border-bottom: 1px solid #dfdede;
+    -webkit-box-shadow: 0px 1px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 8px -2px rgba(0,0,0,0.75);
+}
+
+header .logo a{
+    text-decoration: none;
+    color: #000000
+}
+header .logo .vntu{
+    font-size: 36px;
+    font-weight: 700;
+    font-style: italic;
+    color: #00B0FF;
+}
+header .logo .back{
+    font-size: 26px;
+}
+header .search{
+    width: 30%;   
+}
+header .search #store__search{
+    width: 100%;
+    padding: 10px 15px;
+}
+header .all__stores{
+    padding: 7px 10px;
+    background: #00B0FF;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+header .all__stores:hover{
+    background: rgb(1, 142, 202);
+   
+    transform: scale(0.99);
+}
+
+.header__section{
+    width: 100%;
+    height: 100%;
+    background: url('../img/bg3.jpg') no-repeat center;
+    background-size: cover;
+}
+.header__section .container{
+    flex-direction: column;
+}
+.header__section h2{
+    margin-top: 150px;
+    width: 70%;
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 48px;
+}
+.header__section h4{
+    margin-top: 50px;
+    margin-bottom: 130px;
+    width: 90%;
+    color: #222222;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 18px; 
+}
+
+.about__service{
+    width: 100%;
+    background: #FCFCFC;
+
+}
+.about__service .container{
+    align-items: end;
+}
+.about__service .steps{
+    width: 30%;
+    margin: 60px auto;
+    position: relative;
+    
+}
+.about__service .steps::after{
+    content: "";
+    width: 40px;
+    height: 6px;
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    background: #00B0FF;
+}
+.about__service .steps h3{
+    font-size: 22px;
+    height: 60px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.about__service .steps p{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 0px;
+    line-height: 1.6;
+}
+
+.browser__app{
+    width: 100%;
+    background: #00B0FF;
+    padding: 70px 0px;
+}
+.browser__app .container{
+    flex-direction: column;
+
+}
+.browser__app h3{
+    text-align: center;
+    font-size: 38px;
+    color: #fff;
+    font-weight: 400;
+
+}
+.browser__app hr{
+    width: 150px;
+    margin: 30px auto;
+    background: #ffffff;
+    height: 10px;
+    border: none;
+}
+
+.browser__app p{
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+
+.browser__app .downl__btn{
+    padding: 10px 25px;
+    margin-top: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #00B0FF;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.browser__app .downl__btn:hover{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #00B0FF;
+    background: #ffffff;
+}
+
+#stores_section{
+    width: 100%;
+    background: #ffffff;
+    padding: 70px 0px;
+}
+#stores_section .container{
+    flex-wrap: wrap;
+}
+
+footer{
+    width: 100%;
+    background: #121212;
+    height: 500px;
+}
+
+
+
